@@ -1,0 +1,40 @@
+// Small interactive behaviours: menu toggle, simple client-side subscription handling and year
+document.addEventListener('DOMContentLoaded', function(){
+  const toggle = document.getElementById('menu-toggle');
+  const nav = document.getElementById('nav-links');
+  if(toggle && nav){
+    toggle.addEventListener('click', ()=> nav.classList.toggle('show'));
+  }
+
+  // Set copyright year
+  const yearSpan = document.getElementById('year');
+  if(yearSpan) yearSpan.textContent = new Date().getFullYear();
+
+  // Simple subscribe form behaviour (mailto fallback)
+  const subForm = document.getElementById('subscribe-form');
+  const subMsg = document.getElementById('subscribe-msg');
+  if(subForm){
+    subForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      const email = document.getElementById('email').value;
+      if(!email){
+        showMsg('Please enter an email', 'error');
+        return;
+      }
+
+      // Try to POST to a form endpoint (if you configure one). For now fallback to mailto.
+      const subject = encodeURIComponent('Starter pack request');
+      const body = encodeURIComponent('Please send me the "21 actions to start monetising content this month".\n\nEmail: ' + email);
+      window.location.href = `mailto:info@your-domain.example?subject=${subject}&body=${body}`;
+      showMsg('Opening your email client to complete subscription — or configure a hosted form endpoint for a smoother experience.', 'info');
+    });
+  }
+
+  function showMsg(txt, cls){
+    if(!subMsg) return;
+    subMsg.className = '';
+    subMsg.textContent = txt;
+    subMsg.classList.add(cls);
+    setTimeout(()=> subMsg.classList.add('hidden'), 6000);
+  }
+});

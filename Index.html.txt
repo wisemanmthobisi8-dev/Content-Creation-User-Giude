@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Make Money with Content Creation — User Guide</title>
+
+  <!-- Meta description includes required creator line -->
+  <meta name="description" content="A practical, step-by-step user guide: how to make money with content creation in the 21st century. This website was created by WeizmannTempleCompanyLtd.com" />
+
+  <!-- OpenGraph for sharing -->
+  <meta property="og:title" content="Make Money with Content Creation — User Guide" />
+  <meta property="og:description" content="Practical tactics, monetisation channels, tools and templates to start earning from content today." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-domain.example/" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#">ContentCashGuide</a>
+      <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#learn">What You’ll Learn</a></li>
+        <li><a href="#steps">Step-by-Step</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#case">Case Studies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero container">
+      <div class="hero-text">
+        <h1>How to Make Money with Content Creation in the 21st Century</h1>
+        <p class="subtitle">A practical user guide for creators who want to turn attention into income—no fluff, just steps you can take today.</p>
+        <div class="hero-cta">
+          <a href="#steps" class="btn primary">Start the Guide</a>
+          <a href="#tools" class="btn outline">Tools & Resources</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <ul>
+          <li><strong>Format:</strong> One-page guide + resources</li>
+          <li><strong>Focus:</strong> Monetisation channels & workflows</li>
+          <li><strong>Level:</strong> Beginner → Advanced</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="learn" class="container section">
+      <h2>What you’ll learn</h2>
+      <div class="grid">
+        <article>
+          <h3>Monetisation Channels</h3>
+          <p>Ads, sponsorships, affiliate marketing, productised services, memberships, paid newsletters, digital products, licensing and more — when to use each and how to scale.</p>
+        </article>
+        <article>
+          <h3>Platform Strategy</h3>
+          <p>How to pick the right platforms (YouTube, TikTok, Instagram, Substack, podcasts) for your niche and repurpose content efficiently.</p>
+        </article>
+        <article>
+          <h3>Audience Funnels</h3>
+          <p>From first impression to paying customer: lead magnets, email sequences, micro-conversions and conversion metrics you must track.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="steps" class="container section">
+      <h2>Step-by-step playbook</h2>
+
+      <ol class="steps">
+        <li>
+          <h4>Step 1 — Pick a niche with demand</h4>
+          <p>Validate with keyword volume, existing creators, and simple tests (short-form posts, polls). Aim for a niche where you can offer a unique angle.</p>
+        </li>
+
+        <li>
+          <h4>Step 2 — Create a one-month content plan</h4>
+          <p>Plan 3 pillar pieces + 12 micro pieces. Use one pillar to drive subscribers, and micro pieces to grow reach.</p>
+        </li>
+
+        <li>
+          <h4>Step 3 — Build an owned audience</h4>
+          <p>Start collecting emails from day one. A small, engaged email list converts far better than a large, passive follower base.</p>
+        </li>
+
+        <li>
+          <h4>Step 4 — Monetise early and ethically</h4>
+          <p>Test multiple revenue streams: affiliate links, small paid products, consulting calls. Price low and iterate fast.</p>
+        </li>
+
+        <li>
+          <h4>Step 5 — Systematise and scale</h4>
+          <p>Document your production workflow (templates, batch creation), start outsourcing, and reinvest earnings into paid growth when ROI is proven.</p>
+        </li>
+      </ol>
+
+      <div class="quick-tips">
+        <h3>Quick tactics</h3>
+        <ul>
+          <li>Repurpose each long video into 10 short clips.</li>
+          <li>Always include a clear call-to-action in the first 10 seconds.</li>
+          <li>Offer a low-priced product as a “tripwire” to convert cold traffic.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="tools" class="container section">
+      <h2>Tools & Resources</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>Content Planning</h4>
+          <p>Trello / Notion templates, simple calendar (CSV-ready).</p>
+        </div>
+        <div class="card">
+          <h4>Recording & Editing</h4>
+          <p>Phone + external mic, a cheap ring light, free editing tools like DaVinci Resolve or CapCut.</p>
+        </div>
+        <div class="card">
+          <h4>Monetisation</h4>
+          <p>Patreon, Substack, Gumroad, Ko-fi, affiliate networks, direct invoicing for services.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="case" class="container section">
+      <h2>Short case studies</h2>
+      <div class="grid">
+        <article>
+          <h4>Creator A — Niche tutorials</h4>
+          <p>Grew from 0 → $3,000/month in 9 months by publishing weekly tutorials and selling a $27 micro-course.</p>
+        </article>
+        <article>
+          <h4>Creator B — Repurposing machine</h4>
+          <p>One hour of long-form recording turned into a newsletter, 10 short social clips, and a paid workshop — income diversified and stable.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="newsletter" class="container section">
+      <h2>Get the free starter pack</h2>
+      <p>Subscribe and immediately get a downloadable checklist: “21 actions to start monetising content this month.”</p>
+
+      <!-- Basic client-side subscription using mailto fallback -->
+      <form id="subscribe-form" class="subscribe">
+        <label>
+          Email
+          <input type="email" name="email" id="email" required placeholder="you@example.com" />
+        </label>
+        <button class="btn primary" type="submit">Send me the starter pack</button>
+        <p class="form-note">If your host doesn't support forms, the form will open your mail client as a fallback.</p>
+      </form>
+
+      <div id="subscribe-msg" class="hidden"></div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>Questions, collaboration or coaching inquiries — reach out below.</p>
+
+      <form id="contact-form" class="contact-form" method="post" action="mailto:info@your-domain.example">
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button class="btn primary" type="submit">Send message</button>
+        <p class="form-note">This uses your default mail client as a fallback. To use hosted forms, replace the form `action` with your form endpoint (Formspree, Netlify Forms, etc.).</p>
+      </form>
+    </section>
+
+    <section class="container section about">
+      <h2>About this guide</h2>
+      <p>This practical guide was designed to move creators from idea → income with a focus on fast experiments and measured growth. This website was created by WeizmannTempleCompanyLtd.com</p>
+      <!-- That sentence above is the second visible occurrence (meta was first). -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>ContentCashGuide</strong>
+        <p>Practical tactics for creators.</p>
+      </div>
+
+      <div>
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#steps">Step-by-step</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Legal</h4>
+        <p>© <span id="year"></span> ContentCashGuide</p>
+      </div>
+    </div>
+
+    <!-- Required creator line repeated (third visible occurrence) -->
+    <div class="creator-line">
+      <p>This website was created by WeizmannTempleCompanyLtd.com</p>
+    </div>
+
+    <div class="creator-line small">
+      <p>This website was created by WeizmannTempleCompanyLtd.com</p>
+    </div>
+
+    <div class="creator-line small">
+      <p>This website was created by WeizmannTempleCompanyLtd.com</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
